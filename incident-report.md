@@ -23,4 +23,3 @@ Dynatrace detected a high rate of dropped packets on a virtual network interface
 - **Preventative:** Investigate what process on the Windows host (`WIN-V02MP3J18FE`) generated the massive outbound traffic spike (e.g., scheduled Windows Updates, backup jobs, or large file transfers).
 - **Configuration:** If this happens frequently, request an increase in the network buffer size on the virtual adapter.
 
-<img width="960" height="504" alt="Screenshot 2026-10-21 150052" src="https://github.com/user-attachments/assets/87e17b35-f1e7-4ffa-a151-54558c2705a3" />
